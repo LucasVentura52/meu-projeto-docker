@@ -21,7 +21,7 @@ docker run -p 3000:3000 meu-projeto-docker
 ```
 
 ### 4. Acessar no navegador
-[http://localhost:3000/hello](http://localhost:3000/hello)
+[http://localhost:3000/get](http://localhost:3000/get)
 
 ---
 
