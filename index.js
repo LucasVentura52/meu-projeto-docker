@@ -2,19 +2,16 @@ const express = require('express');
 const app = express();
 const PORT = 3000;
 
-// Simulando um "banco de dados" em memória
 const pessoas = [
   { id: 1, nome: 'João', idade: 30 },
   { id: 2, nome: 'Maria', idade: 25 },
   { id: 3, nome: 'Carlos', idade: 40 }
 ];
 
-// Rota para listar todas as pessoas
 app.get('/pessoas', (req, res) => {
   res.json(pessoas);
 });
 
-// Rota para buscar uma pessoa pelo ID
 app.get('/pessoas/:id', (req, res) => {
   const id = parseInt(req.params.id);
   const pessoa = pessoas.find(p => p.id === id);
