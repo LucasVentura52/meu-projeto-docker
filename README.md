@@ -1,6 +1,6 @@
 # Projeto Docker com Node.js
 
-Este é um projeto simples em Node.js com Express Ele fornece uma API com rotas que retornam dados de pessoas.
+Este é um projeto simples em Node.js com Express, ele fornece uma API com rotas que retornam dados de pessoas.
 
 ## 🛠 Como rodar
 
